@@ -130,8 +130,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Contact Me</h6>
               </div>
-                <form>
-                  <form class="ajaxForm" action="https://formcarry.com/s/AJxwvPj56YV" method="POST" accept-charset="UTF-8" >
+                <form action="https://formcarry.com/s/AJxwvPj56YV" method="POST" accept-charset="UTF-8" >
                   <input type="text" name="name" placeholder="Your Name" required/>
                   <input type="email" name="email" placeholder="Email Address"  required/>
                   <input type="text" name="message" placeholder="Type your Message" required/>
