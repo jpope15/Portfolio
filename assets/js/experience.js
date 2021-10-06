@@ -7,7 +7,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "HVAC Intern",
-    cardImage: "assets/images/experience-page/dodge-cooling-heating.jpg",
+    cardImage: "assets/images/experience-page/dodge-cooling-heating.png",
     place: "Dodge Cooling & Heating",
     time: "(June 2020 - May 2020)",
     location: "Chelmsford, MA",
