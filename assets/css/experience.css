@@ -226,13 +226,14 @@ ul ol {
 
 @media only screen and (max-width: 992px) {
   .card1 .featured-image {
+    object-fit: cover;
     width: 400px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .card1 .featured-image {
-    height: 400px;
+    object-fit: cover;
     width: 100%;
   }
 }
@@ -240,6 +241,7 @@ ul ol {
 @media only screen and (max-width: 401px) {
   .card1 .featured-image {
     height: 300px;
+    object-fit: cover;
   }
 }
 
