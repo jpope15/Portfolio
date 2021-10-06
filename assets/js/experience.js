@@ -6,8 +6,7 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "HVAC Intern",
-    cardImage: "assets/images/experience-page/dodge-cooling-heating.png",
+    title: "HVAC Apprentice",
     place: "Dodge Cooling & Heating",
     time: "(June 2020 - May 2020)",
     location: "Chelmsford, MA",
@@ -18,11 +17,10 @@ const exp = [
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, cardImage, place, time, location, desp }) =>
+    ({ title, place, time, location, desp }) =>
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
-        <img src="${cardImage}" class="featured-image"/>
         <article class="card-body">
           <header>
             <div class="title">
