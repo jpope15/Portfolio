@@ -189,8 +189,7 @@ ul ol {
 }
 
 .card1 .featured-image {
-  background-size: cover;
-  object-fit: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border-top-left-radius: 13px;
