@@ -10,7 +10,14 @@ const exp = [
     place: "Dodge Cooling & Heating",
     time: "(June 2020 - May 2020)",
     location: "Chelmsford, MA",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Increased company efficiency by delivering supplies to job sites<li>Improved customer service skills by working in residential and commercial settings<li>Learned about possible software/hardware issues regarding HVAC systems",
+  },
+  {
+    title: "Store Associate",
+    place: "Pet Supplies Plus",
+    time: "(September 2019 - June 2020)",
+    location: "Billerica, MA",
+    desp: "<li>Improved sales skills by recommending different products to customers<li>Multi-tasked in a stressful enviorment<li>Ran the sales counter and directed employee's to different tasks",
   },
 ];
 
