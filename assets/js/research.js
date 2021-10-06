@@ -1,5 +1,6 @@
 /*Research Details Table*/
 
+/*
 const researchTable = document.querySelector(".main");
 
 const research = [
@@ -161,3 +162,4 @@ const fillData = () => {
 };
 document.addEventListener("DOMContentLoaded", fillData);
 
+*/

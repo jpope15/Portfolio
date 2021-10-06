@@ -58,6 +58,7 @@ const showCards2 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards2);
 
+/*
 
 // Volunteership Cards
 
@@ -229,3 +230,4 @@ const showCards3 = () => {
   hackathonsection.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
+*/
