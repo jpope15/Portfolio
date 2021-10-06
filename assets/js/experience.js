@@ -8,6 +8,7 @@ const exp = [
   {
     title: "HVAC Apprentice",
     place: "Dodge Cooling & Heating",
+    image: "assets/images/experience-page/dodge-cooling-heating.jpg",
     time: "(June 2020 - May 2020)",
     location: "Chelmsford, MA",
     desp: "<li>Increased company efficiency by delivering supplies to job sites<li>Improved customer service skills by working in residential and commercial settings<li>Learned about possible software/hardware issues regarding HVAC systems",
@@ -15,6 +16,7 @@ const exp = [
   {
     title: "Store Associate",
     place: "Pet Supplies Plus",
+    image: "assets/images/experience-page/psp.png",
     time: "(September 2019 - June 2020)",
     location: "Billerica, MA",
     desp: "<li>Improved sales skills by recommending different products to customers<li>Multi-tasked in a stressful enviorment<li>Ran the sales counter and directed employee's to different tasks",
@@ -24,10 +26,11 @@ const exp = [
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, place, time, location, desp }) =>
+    ({ title, place, image, time, location, desp }) =>
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
+        <img src="${image}" class="featured-image"/>
         <article class="card-body">
           <header>
             <div class="title">
