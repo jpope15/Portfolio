@@ -190,6 +190,7 @@ ul ol {
 
 .card1 .featured-image {
   background-size: cover;
+  object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-top-left-radius: 13px;
@@ -226,22 +227,20 @@ ul ol {
 
 @media only screen and (max-width: 992px) {
   .card1 .featured-image {
-    object-fit: cover;
-    //width: 400px;
+    width: 400px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .card1 .featured-image {
-    object-fit: cover;
-    //width: 100%;
+    height: 400px;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 401px) {
   .card1 .featured-image {
-    //height: 300px;
-    object-fit: cover;
+    height: 300px;
   }
 }
 
