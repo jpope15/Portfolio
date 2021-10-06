@@ -8,7 +8,7 @@ const exp = [
   {
     title: "HVAC Apprentice",
     place: "Dodge Cooling & Heating",
-    image: "assets/images/experience-page/dodge-cooling-heating.jpg",
+    image: "assets/images/experience-page/dodge-cooling-heating.png",
     time: "(June 2020 - May 2020)",
     location: "Chelmsford, MA",
     desp: "<li>Increased company efficiency by delivering supplies to job sites<li>Improved customer service skills by working in residential and commercial settings<li>Learned about possible software/hardware issues regarding HVAC systems",
