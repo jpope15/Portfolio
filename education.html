@@ -41,18 +41,20 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/cursor.css">
     <link id='favicon' rel="icon" href="assets/images/favicon.png" type="image/png">
-
-    <!-- For mooc svg icons 👇, might need it later -->
-    <link id="mooc-icon-favicon" rel="mooc-icon-favicon" type="image/svg+xml" href="assets/images/education-page/coursera2.svg">
-    <link id="mooc-icon-favicon" rel="mooc-icon-favicon" type="image/svg+xml" href="assets/images/education-page/udacity.svg">
-    <link id="mooc-icon-favicon" rel="mooc-icon-favicon" type="image/svg+xml" href="assets/images/education-page/edx.svg">
-    <link id="mooc-icon-favicon" rel="mooc-icon-favicon" type="image/svg+xml" href="assets/images/education-page/udemy.svg">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png">
     <script defer src="./assets/js/dynamicTitle.js"></script>
 </head>
 
 <body class="no-scroll-preload">
+    <!-- loader -->
+    <div class="loader-container">
+        <div class="atom">
+            <div class="electron"></div>
+            <div class="electron-alpha"></div>
+            <div class="electron-omega"></div>
+        </div>
+    </div>
 
     <!--Dynamic Nav Bar-->
 
@@ -273,22 +275,21 @@
         <div class="container">
             
             <!-- Dynamic Education Timeline Cards -->
-            <div class="timeline-item">
+   <div class="timeline-item">
       <div class="timeline-img"></div>
 
       <div class="timeline-content js--fadeInLeft">
-        <div class="date">2020 - 2024</div>
+        <div class="timeline-img-header" style="background-image: url('assets/images/education-page/edTimeline1.png'); background-repeat: no-repeat; background-size: auto;"></div>
+        <div class="date">2021-2022</div>
         <div>
             <h2>University of Massachusetts Lowell</h2>
-            <h6>Bachelors of Science in Computer Science</h6>
+            <h6>Bachelors of Science, Computer Science</h6>
             <li>Minors in Mathematics and Business</li>
             <li>3.98 GPA</li>
             <li>Deans List</li>
         </div>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
       </div>
-    </div> 
-
+   </div> 
 
     <!-- Second -->
     <div class="timeline-item">
@@ -296,17 +297,20 @@
       <div class="timeline-img"></div>
 
       <div class="timeline-content timeline-card js--fadeInRight">
-        <div class="date">2016 - 2020</div>
-        <div class="alignment">
-            <h2>Billerica Memorial High School</h2>
-            <h6>High School</h6>
-            <li>Lemelson-MIT InvenTeam Prize Winner</li>
-            <li>Four-time Varsity Captain of the Track & Field team</li>
+        <div>
+            <div class="timeline-img-header" style="background-image: url('assets/images/education-page/edTimeline2.png'); background-repeat: no-repeat; background-size: auto; background-position: center top"></div>
         </div>
-        <a class="bnt-more" href="javascript:void(0)">More</a>
+        <div class="date">2016-2020</div>
+        <div class="alignment">
+            <h3>Billerica Memorial High School</h3>
+            <h6>High School</h6>
+            <li>3.41 GPA</li>
+            <li>Lemelson-MIT InvenTeam award winner</li>
+            <li>Four-time Varsity Captain of the Track & Field Team</li>
+        </div>
       </div>
-    </div>
 
+    </div>   
         </div>
       </section>
       
