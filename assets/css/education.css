@@ -550,8 +550,8 @@ header p {
 .timeline-img-header h2 {
   /*color: #FFFFFF;*/
   color: black;
-  position: absolute;
-  bottom: 5px;
+  position: relative;
+  bottom: 0px;
   left: 20px;
 }
 
