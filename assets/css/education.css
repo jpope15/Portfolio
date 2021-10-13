@@ -573,7 +573,7 @@ blockquote {
 
 .date {
   background: #FF4081;
-  display: inline-block;
+  display: block;
   color: #FFFFFF;
   padding: 10px;
   position: absolute;
