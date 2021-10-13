@@ -6,44 +6,54 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Quiz App",
+    title: "Yoru",
     cardImage: "assets/images/project-page/quiz.jpg",
-    description: "A quiz app built using basic react.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
+    description: "A website that finds breaks in you and your friends' schedules",
+    Githublink: "https://github.com/jakecorrenti/yoru",
   },
   {
-    title: "Chess Engine",
+    title: "Portfolio Website",
+    cardImage: "",
+    description: "My personal portfolio website developed in CSS, HTML, and JS",
+    Githublink: "https://github.com/jpope15/Portfolio",
+  },
+  {
+    title: "Evil Hangman",
     cardImage: "assets/images/project-page/chess.jpg",
-    description: "A chess engine for a popular game dev engine.",
-    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
-    Githublink: "",
+    description: "Hangman game developed in C that cheats to make you lose",
+    Githublink: "https://github.com/jpope15",
   },
   {
-    title: "Flappy Bird",
+    title: "Snake",
     cardImage: "assets/images/project-page/flappybird.png",
-    description: "Flappy bird game built using React.js",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
+    description: "Single and Multiplayer Snake game developed in C++",
+    Githublink: "https://github.com/jpope15/Snake",
   },
   {
-    title: "Exercise Tracker",
+    title: "Discord Bot",
     cardImage: "assets/images/project-page/exercise.jpg",
-    description: "Exercise tracker built using basic redux.",
-    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "",
-    Githublink: "",
+    description: "Discord bot developed in Python that displays stock market data",
+    Githublink: "https://github.com/jpope15",
   },
+  {
+    title: "Photo Encrypter",
+    cardImage: "",
+    description: "Photo encryption app developed in C++",
+    Githublink: "https://github.com/jpope15",
+  },
+  {
+    title: "Universe Simulator",
+    cardImage: "",
+    description: "A universe simulator developed in C++ using the SFML library",
+    Githublink: "https://github.com/jpope15",
+  }
 ];
 
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
   projects.forEach(
-    ({ title, cardImage, tags, Previewlink, Githublink }) => {
+    ({ title, cardImage, description, Githublink }) => {
       (output += `       
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
@@ -53,10 +63,12 @@ const showCards = () => {
               <div class="content">
               <div class="title-div">
                 <h1 class="title"><a href="#">${title}</a></h1>
-                </div>
+              </div>
+              <div>
+                <p>${description}</p>
+              </div>
             <ul class="menu-content"><br>
-                  <li><a href="${Previewlink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
-                  <li><a href="${Githublink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+                  <li><a href="${Githublink}" class="social-icon" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
                 </ul>
               </div>
             </div>
