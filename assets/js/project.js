@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Discord Bot",
-    cardImage: "assets/images/project-page/popebot.jpg",
+    cardImage: "assets/images/project-page/popebot.png",
     description: "Discord bot developed in Python that displays stock market data",
     Githublink: "https://github.com/jpope15",
   },
@@ -45,6 +45,12 @@ const projects = [
     title: "Universe Simulator",
     cardImage: "assets/images/project-page/universe.png",
     description: "A universe simulator developed in C++ using the SFML library",
+    Githublink: "https://github.com/jpope15",
+  },
+  {
+    title: "Triangle Fractal",
+    cardImage: "assets/images/project-page/TFractal.png",
+    description: "A modified version of the Sierpinski Triangle in C++",
     Githublink: "https://github.com/jpope15",
   }
 ];
