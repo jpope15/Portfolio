@@ -7,43 +7,43 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Yoru",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    cardImage: "assets/images/project-page/yoru.png",
     description: "A website that finds breaks in you and your friends' schedules",
     Githublink: "https://github.com/jakecorrenti/yoru",
   },
   {
     title: "Portfolio Website",
-    cardImage: "",
+    cardImage: "assets/images/project-page/portfolio.png",
     description: "My personal portfolio website developed in CSS, HTML, and JS",
     Githublink: "https://github.com/jpope15/Portfolio",
   },
   {
     title: "Evil Hangman",
-    cardImage: "assets/images/project-page/chess.jpg",
+    cardImage: "assets/images/project-page/hangman.png",
     description: "Hangman game developed in C that cheats to make you lose",
     Githublink: "https://github.com/jpope15",
   },
   {
     title: "Snake",
-    cardImage: "assets/images/project-page/flappybird.png",
+    cardImage: "assets/images/project-page/snake.png",
     description: "Single and Multiplayer Snake game developed in C++",
     Githublink: "https://github.com/jpope15/Snake",
   },
   {
     title: "Discord Bot",
-    cardImage: "assets/images/project-page/exercise.jpg",
+    cardImage: "assets/images/project-page/popebot.jpg",
     description: "Discord bot developed in Python that displays stock market data",
     Githublink: "https://github.com/jpope15",
   },
   {
     title: "Photo Encrypter",
-    cardImage: "",
+    cardImage: "assets/images/project-page/lfsr.png",
     description: "Photo encryption app developed in C++",
     Githublink: "https://github.com/jpope15",
   },
   {
     title: "Universe Simulator",
-    cardImage: "",
+    cardImage: "assets/images/project-page/universe.png",
     description: "A universe simulator developed in C++ using the SFML library",
     Githublink: "https://github.com/jpope15",
   }
