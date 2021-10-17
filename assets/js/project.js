@@ -8,51 +8,51 @@ const projects = [
   {
     title: "Yoru",
     cardImage: "assets/images/project-page/yoru.png",
-    description: "A website that finds breaks in you and your friends' schedules",
+    description: "A website that finds breaks in you and your friends' schedules (Still in development)",
     Githublink: "https://github.com/jakecorrenti/yoru",
-  },
-  {
-    title: "Portfolio Website",
-    cardImage: "assets/images/project-page/portfolio.png",
-    description: "My personal portfolio website developed in CSS, HTML, and JS",
-    Githublink: "https://github.com/jpope15/Portfolio",
-  },
-  {
-    title: "Evil Hangman",
-    cardImage: "assets/images/project-page/hangman.png",
-    description: "Hangman game developed in C that cheats to make you lose",
-    Githublink: "https://github.com/jpope15",
-  },
-  {
-    title: "Snake",
-    cardImage: "assets/images/project-page/snake.png",
-    description: "Single and Multiplayer Snake game developed in C++",
-    Githublink: "https://github.com/jpope15/Snake",
-  },
-  {
-    title: "Discord Bot",
-    cardImage: "assets/images/project-page/popebot.png",
-    description: "Discord bot developed in Python that displays stock market data",
-    Githublink: "https://github.com/jpope15",
   },
   {
     title: "Photo Encrypter",
     cardImage: "assets/images/project-page/lfsr.png",
-    description: "Photo encryption app developed in C++",
+    description: "Photo encryption program developed in C++ using the SFML library",
     Githublink: "https://github.com/jpope15",
   },
   {
     title: "Universe Simulator",
     cardImage: "assets/images/project-page/universe.png",
-    description: "A universe simulator developed in C++ using the SFML library",
+    description: "A planetary physics simulator developed in C++ using the SFML library",
     Githublink: "https://github.com/jpope15",
   },
   {
     title: "Triangle Fractal",
     cardImage: "assets/images/project-page/TFractal.png",
-    description: "A modified version of the Sierpinski Triangle in C++",
+    description: "A modified version of the Sierpinski Triangle developed in C++ using the SFML library",
     Githublink: "https://github.com/jpope15",
-  }
+  },
+  {
+    title: "Portfolio Website",
+    cardImage: "assets/images/project-page/portfolio.png",
+    description: "My personal portfolio website developed in CSS, HTML, and JavaScript",
+    Githublink: "https://github.com/jpope15/Portfolio",
+  },
+  {
+    title: "Evil Hangman",
+    cardImage: "assets/images/project-page/hangman.png",
+    description: "Hangman game developed in C that cheats throughout the game to make you lose",
+    Githublink: "https://github.com/jpope15",
+  },
+  {
+    title: "Snake",
+    cardImage: "assets/images/project-page/snake.png",
+    description: "Single and Multiplayer Snake game developed in C++ using the SFML library",
+    Githublink: "https://github.com/jpope15/Snake",
+  },
+  {
+    title: "Discord Bot",
+    cardImage: "assets/images/project-page/popebot.png",
+    description: "Discord bot developed in Python that displays stock market data, memes, and Reddit posts",
+    Githublink: "https://github.com/jpope15",
+  },
 ];
 
 // function for rendering project cards data
