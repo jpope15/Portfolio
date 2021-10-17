@@ -5,4 +5,4 @@ Developed using CSS, HTML, and JavaScript
 
 
 
-Forked from https://github.com/smaranjitghose
+Based off of this template https://github.com/smaranjitghose
