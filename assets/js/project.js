@@ -6,12 +6,6 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Yoru",
-    cardImage: "assets/images/project-page/yoru.png",
-    description: "A website that finds breaks in you and your friends' schedules (Still in development)",
-    Githublink: "https://github.com/jakecorrenti/yoru",
-  },
-  {
     title: "Photo Encrypter",
     cardImage: "assets/images/project-page/lfsr.png",
     description: "Photo encryption program developed in C++ using the SFML library",
