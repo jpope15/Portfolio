@@ -12,6 +12,12 @@ const projects = [
     Githublink: "https://github.com/jpope15",
   },
   {
+    title: "Guitar Simulator",
+    cardImage: "assets/images/project-page/guitar.png",
+    description: "A guitar simulator developed in C++. Uses the Karplus-Strong algorithm to generate each sound.",
+    Githublink: "https://github.com/jpope15",
+  },
+  {
     title: "Universe Simulator",
     cardImage: "assets/images/project-page/universe.png",
     description: "A planetary physics simulator developed in C++ using the SFML library",
@@ -64,11 +70,9 @@ const showCards = () => {
               <div class="title-div">
                 <h1 class="title"><a>${title}</a></h1>
               </div>
-              <div>
-                <p class="pre-heading" class="mb-0 mt-3 text-center animate__animated animate__zoomIn animate__delay-2s">
+              <p>
                   ${description}
                 </p>
-              </div>
               </div>
             </div>
           </div>
