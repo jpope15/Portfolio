@@ -6,6 +6,12 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Text Generator",
+    cardImage: "assets/images/project-page/textgen.png",
+    description: "Text Generator written in C++. Uses Markov-chains to generate text based on an input text.",
+    Githublink: "https://github.com/jpope15",
+  },
+  {
     title: "Photo Encrypter",
     cardImage: "assets/images/project-page/lfsr.png",
     description: "Photo encryption program developed in C++ using the SFML library",
