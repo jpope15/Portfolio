@@ -36,12 +36,6 @@ const projects = [
     Githublink: "https://github.com/jpope15",
   },
   {
-    title: "Portfolio Website",
-    cardImage: "assets/images/project-page/portfolio.png",
-    description: "My personal portfolio website developed in CSS, HTML, and JavaScript",
-    Githublink: "https://github.com/jpope15/Portfolio",
-  },
-  {
     title: "Evil Hangman",
     cardImage: "assets/images/project-page/hangman.png",
     description: "Hangman game developed in C that cheats throughout the game to make you lose",
@@ -52,13 +46,7 @@ const projects = [
     cardImage: "assets/images/project-page/snake.png",
     description: "Single and Multiplayer Snake game developed in C++ using the SFML library",
     Githublink: "https://github.com/jpope15/Snake",
-  },
-  {
-    title: "Discord Bot",
-    cardImage: "assets/images/project-page/popebot.png",
-    description: "Discord bot developed in Python that displays stock market data, memes, and Reddit posts",
-    Githublink: "https://github.com/jpope15",
-  },
+  }
 ];
 
 // function for rendering project cards data
