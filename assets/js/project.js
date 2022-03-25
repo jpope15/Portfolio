@@ -6,6 +6,12 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "File Cleaner",
+    cardImage: "assets/images/project-page/",
+    description: "A command line tool in C++ that removes unwanted lines from a file that you specify",
+    Githublink: "https://github.com/jpope15/DebugCleaner",
+  },
+  {
     title: "Text Generator",
     cardImage: "assets/images/project-page/textgen.png",
     description: "Text Generator written in C++. Uses Markov-chains to generate text based on an input text.",
@@ -53,7 +59,7 @@ const projects = [
 const showCards = () => {
   let output = "";
   projects.forEach(
-    ({ title, cardImage, description, Githublink }) => {
+    ({ title, cardImage, Githublink }) => {
       (output += `       
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" onclick="location.href='${Githublink}';">
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
@@ -64,9 +70,6 @@ const showCards = () => {
               <div class="title-div">
                 <h1 class="title"><a>${title}</a></h1>
               </div>
-              <p>
-                  ${description}
-                </p>
               </div>
             </div>
           </div>
