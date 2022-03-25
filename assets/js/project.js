@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "File Cleaner",
-    cardImage: "assets/images/project-page/",
+    cardImage: "assets/images/project-page/debugcleaner.png",
     description: "A command line tool in C++ that removes unwanted lines from a file that you specify",
     Githublink: "https://github.com/jpope15/DebugCleaner",
   },
